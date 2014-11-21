@@ -1,3 +1,22 @@
+/*Font Stuff*/
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  src: url('http://cdn0.tnwcdn.com/fonts/source-sans-pro-light.eot');
+  src: url('http://cdn0.tnwcdn.com/fonts/source-sans-pro-light.eot?#iefix') format('embedded-opentype'), url('http://cdn0.tnwcdn.com/fonts/source-sans-pro-light.woff') format('woff'), url('http://cdn0.tnwcdn.com/fonts/source-sans-pro-light.ttf') format('truetype'), url('http://cdn0.tnwcdn.com/fonts/source-sans-pro-light.svg#source_sans_prolight') format('svg');
+  font-weight: 200;
+  font-style: normal
+}
+body.body-box {
+  font-family: 'Source Sans Pro'
+}
+h1.main-font {
+  font-size: 2.5em;
+}
+h1.side-font {
+  font-size: 1.8em;
+}
+
 /*Sidebar*/
 div.sidebar-box {
   width: 300px;
@@ -9,34 +28,30 @@ div.sidebar-box {
 }
 
 /*Content*/
-div.content-box img{
-  width:100%;
-  height:auto;
+div.content-box img {
+  width: 100%;
+  height: auto;
 }
-
 div.content-box {
   background-color: #eeeeee;
   margin: 0;
   padding: 2%;
 }
-
 div.content-box-sub {
   background-color: white;
-  margin: 0;
+  margin: 0 auto;
   padding: 1%;
+  max-width: 800px;
 }
-
-div.content-box-wrapper{
+div.content-box-wrapper {
   margin-left: 300px;
 }
 @media screen and (max-width: 992px) {
-  div.content-box-wrapper{
+  div.content-box-wrapper {
     margin-left: 0;
   }
 }
-
 div.content-main-box, div.content-side-box, div.side-box-articles {
   margin: 0;
   padding: 1%;
 }
-
