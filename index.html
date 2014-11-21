@@ -11,14 +11,6 @@
 
     <title>The Next Web</title>
 
-    <!-- online -->
-    <!
-    <link href="css/custom.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" >
-    <link href="http://getbootstrap.com/examples/dashboard/dashboard.css" rel="stylesheet">
-    <script src="js/ie-emulation-modes-warning.js"></script><style type="text/css"></style> -->
-
-    <!-- offline -->
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/dashboard.css" rel="stylesheet">
@@ -27,24 +19,24 @@
 
 <!-- BODY -->
   <body>
-  <!-- Navigation Start -->
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid"><!-- .container-fluid-start-->
-      <div class="row"><!-- Row for Navigation Start-->
+  <!-- *Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation"> <!-- Navigation S -->
+    <div class="container-fluid"><!-- Container for Nav S -->
+      <div class="row"><!-- Row for Navigation S -->
         <!-- Brand logo-->
         <!-- xs-6 -->
-        <div class="navbar-header col-xs-6"><!-- Left nav bar start -->
+        <div class="navbar-header col-xs-6"><!-- Left nav bar S -->
           <a class="navbar-brand" href="#">
             <img src="images/logo/tnw-logo.svg" alt="" width="auto" height="100%">
           </a>
-        </div><!-- Left nav bar collapse -->
+        </div><!-- Left nav bar C -->
 
         <!-- Follow Login Search functions-->
         <!-- xs-6 -->
-        <div class = "col-xs-6"><!-- Right nav bar start -->
-          <div class="navbar-collapse"><!-- .navbar-collapse-start -->
-            <ul class="nav navbar-nav navbar-right"><!-- .navbar-right-start -->
-              <li class="dropdown  col-xs-8"><!-- Follow-Start -->
+        <div class = "col-xs-6"><!-- Right nav bar S -->
+          <div class="navbar-collapse"><!-- .navbar-collapse S -->
+            <ul class="nav navbar-nav navbar-right"><!-- .navbar-right S -->
+              <li class="dropdown  col-xs-8"><!-- Follow S -->
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   FOLLOW
                   <span class="caret"></span>
@@ -57,7 +49,7 @@
                   <li><a href="#">Separated link</a></li>
                 </ul>
               </li><!-- Follow-collapse -->
-              <li class="dropdown  col-xs-2"><!-- Login-Start -->
+              <li class="dropdown  col-xs-2"><!-- Login S -->
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <span class="glyphicon glyphicon-user"></span>
                 </a>
@@ -69,7 +61,7 @@
                   <li><a href="#">Separated link</a></li>
                 </ul>
               </li><!-- Login-collapse -->
-              <li class="dropdown col-xs-2"><!-- Search-Start -->
+              <li class="dropdown col-xs-2"><!-- Search S -->
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <span class="glyphicon glyphicon-search"></span>
                 </a>
@@ -79,54 +71,69 @@
               </li><!-- Search-collapse -->
             </ul><!-- .navbar-right-collapse -->
           </div><!-- .navbar-collapse-collapse --> 
-        </div><!-- Right nav bar collapse -->
-      </div> <!-- .Row for Navigation collapse -->
+        </div><!-- Right nav bar C -->
+      </div> <!-- .Row for Navigation C -->
+    </div><!-- Container for Nav C -->
+  </nav><!-- Navigation C-->
 
+  <!-- *Sidebar -->
+  <div class="container-fluid sidebar-box hidden-xs hidden-sm"><!-- Sidebar S -->
+    <div class="sidebar-box-sub"><!-- Content Box for Buttons S -->
+      <ul class="nav side-box-buttons">
+        <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Reports</a></li>
+        <li><a href="#">Analytics</a></li>
+        <li><a href="#">Export</a></li>
+      </ul>
+    </div><!-- Content Box for Buttons C -->
+  </div><!-- Sidebar C -->
 
-    </div><!-- .container-fluid-collpase -->
-  </nav><!-- Navigation-collapse -->
-
-  <!-- Content -->
-  <div class="container-fluid content-box"><!-- Content Box for Articles -->
-    <div class="row content-box-sub"><!-- Content Row Start -->
-      <div class="col-xs-12 col-md-8 content-main-box"><!-- Main Box Start-->
-        <figure>
-          <img src="images/main/Square-Reader.jpg">
-          <figcaption>
-            By <a href="">JORY MACKAY</a>
-          </figcaption>
-        </figure>
-        <article>
-          <h1>Square officially launches its Register software platform worldwide</h1>
-          <p>Square has today announced that its point-of-sale(POS) software Square Register is now available globally, having previously been restricted to users in the US, Canada and Japan, Announced at The Financial... <a href="#">Keep reading</a></p>
-        </article>
-      </div><!-- Main Box Collapse -->
-      <div class="col-xs-12 col-md-4 content-side-box"><!-- Side Box Start-->
-        <div class="col-xs-12 side-box-articles"><!-- SideContent Article 1 Start -->
+  <!-- *Content -->
+  <div class="content-box-wrapper"><!-- Wrapper for Content Box S -->
+    <div class="container-fluid content-box"><!-- Content Box for Articles S -->
+      <div class="row content-box-sub"><!-- Content Row S -->
+        <div class="col-xs-12 col-sm-8 col-md-8 content-main-box"><!-- Main Box S -->
           <figure>
-            <img src="images/main/Well-Dressed.jpg">
+            <img src="images/main/Square-Reader.jpg">
             <figcaption>
               By <a href="">JORY MACKAY</a>
             </figcaption>
           </figure>
           <article>
-            <h1>The weird science of first impressions</h1>
+            <h1>Square officially launches its Register software platform worldwide</h1>
+            <p>Square has today announced that its point-of-sale(POS) software Square Register is now available globally, having previously been restricted to users in the US, Canada and Japan, Announced at The Financial... <a href="#">Keep reading</a></p>
           </article>
-        </div><!-- SideContent Article 1 Collapse -->
-        <div class="col-xs-12 side-box-articles"><!-- SideContent Article 2 Start -->
-          <figure>
-            <img src="images/main/Adidas-Shoes.png">
-            <figcaption>
-                By <a href="">PAUL SAWERS</a>
-            </figcaption>
-          </figure>
-          <article>
-            <h1>Adidas now lets Americans print photos on their sneakers too</h1>
-          </article>
-        </div><!-- SideContent Article 2 Collapse-->
-        </div><!-- Side Box Collapse -->
-    </div><!-- Content Row Collapse -->
-  </div><!-- Content Box for Articles Collapse -->
+        </div><!-- Main Box C -->
+        <div class="col-xs-12 col-sm-4 col-md-4 content-side-box"><!-- Side Box S -->
+          <div class="col-xs-12 side-box-articles"><!-- SideContent Article 1 S -->
+            <figure>
+              <img src="images/main/Well-Dressed.jpg">
+              <figcaption>
+                By <a href="">JORY MACKAY</a>
+              </figcaption>
+            </figure>
+            <article>
+              <h1>The weird science of first impressions</h1>
+            </article>
+          </div><!-- SideContent Article 1 C -->
+          <div><!-- SideContent Article 2 S -->
+            <figure>
+              <img src="images/main/Adidas-Shoes.png">
+              <figcaption>
+                  By <a href="">PAUL SAWERS</a>
+              </figcaption>
+            </figure>
+            <article>
+              <h1>Adidas now lets Americans print photos on their sneakers too</h1>
+            </article>
+          </div><!-- SideContent Article 2 C-->
+        </div><!-- Side Box C -->
+      </div><!-- Content Row C -->
+    </div><!-- Content Box for Article C -->
+  </div><!-- Wrapper for Content Box C -->
+
+
+
 
 
     <!-- Bootstrap core JavaScript
