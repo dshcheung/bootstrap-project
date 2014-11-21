@@ -25,18 +25,40 @@
       <div class="row"><!-- Row for Navigation S -->
         <!-- Brand logo-->
         <!-- xs-6 -->
-        <div class="navbar-header col-xs-6"><!-- Left nav bar S -->
-          <a class="navbar-brand" href="#">
-            <img src="images/logo/tnw-logo.svg" alt="" width="auto" height="100%">
-          </a>
-        </div><!-- Left nav bar C -->
+        <ul class="nav navbar-nav">
+          <li class="navbar-header"><!-- Left nav bar S -->
+            <a class="navbar-brand" id="logo" href="#">
+              <img src="images/logo/tnw-logo.svg" alt="" width="auto" height="100%">
+            </a>
+          </li><!-- Left nav bar C -->
+          <li class="nav-blog-link active nav-font hidden-xs">
+            <a href="#">
+              BLOG
+            </a>
+          </li>
+          <li class="nav-conference-link nav-font hidden-xs">
+            <a href="#">
+              CONFERENCE
+            </a>
+          </li>
+          <li class="nav-deals-link nav-font hidden-xs">
+            <a href="#">
+              DEALS
+            </a>
+          </li>
+          <li class="nav-pro-link nav-font hidden-xs">
+            <a href="#">
+              PRO
+            </a>
+          </li>
+        </ul>
 
         <!-- Follow Login Search functions-->
         <!-- xs-6 -->
-        <div class = "col-xs-6"><!-- Right nav bar S -->
-          <div class="navbar-collapse"><!-- .navbar-collapse S -->
-            <ul class="nav navbar-nav navbar-right"><!-- .navbar-right S -->
-              <li class="dropdown  col-xs-8"><!-- Follow S -->
+        <!-- <div class = "col-xs-6"> --><!-- Right nav bar S -->
+          <div class="navbar-right"><!-- .navbar-collapse S -->
+            <ul class="nav navbar-nav"><!-- .navbar-right S -->
+              <li class="dropdown"><!-- Follow S -->
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   FOLLOW
                   <span class="caret"></span>
@@ -49,7 +71,7 @@
                   <li><a href="#">Separated link</a></li>
                 </ul>
               </li><!-- Follow-collapse -->
-              <li class="dropdown  col-xs-2"><!-- Login S -->
+              <li class="dropdown"><!-- Login S -->
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <span class="glyphicon glyphicon-user"></span>
                 </a>
@@ -61,7 +83,7 @@
                   <li><a href="#">Separated link</a></li>
                 </ul>
               </li><!-- Login-collapse -->
-              <li class="dropdown col-xs-2"><!-- Search S -->
+              <li class="dropdown"><!-- Search S -->
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                   <span class="glyphicon glyphicon-search"></span>
                 </a>
@@ -71,7 +93,7 @@
               </li><!-- Search-collapse -->
             </ul><!-- .navbar-right-collapse -->
           </div><!-- .navbar-collapse-collapse --> 
-        </div><!-- Right nav bar C -->
+        <!-- </div> --><!-- Right nav bar C -->
       </div> <!-- .Row for Navigation C -->
     </div><!-- Container for Nav C -->
   </nav><!-- Navigation C-->
