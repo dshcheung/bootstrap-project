@@ -1,4 +1,21 @@
-.main-box-articles img{
+div.content-box {
+  background-color: #eeeeee;
+  margin: 0;
+  padding: 1.5%;
+}
+
+.content-box img{
   width:100%;
   height:auto;
+}
+
+div.content-box-sub {
+  background-color: white;
+  margin: 0;
+  padding: 1.5%;
+}
+
+div.content-main-box, div.content-side-box, div.side-box-articles {
+  margin: 0;
+  padding: 0.5%;
 }
