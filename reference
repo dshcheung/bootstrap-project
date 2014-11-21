@@ -11,76 +11,120 @@
 
     <title>The Next Web</title>
 
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="http://getbootstrap.com/examples/dashboard/dashboard.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="js/ie-emulation-modes-warning.js"></script><style type="text/css"></style>
   </head>
 
 <!-- BODY -->
-  <body>
-<!-- Navigation Bar -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <!-- Master Row for Navbar -->
-    <div class="row">
-      <!-- Brand logo-->
-      <!-- xs-6 -->
-      <div class="navbar-header col-xs-6">
-        <a class="navbar-brand" href="#">
-          <img src="images/logo/tnw-logo.svg" alt="" width="auto" height="100%">
-        </a>
-      </div><!-- .navbar-header-collapse -->
+<body>
+  <!-- Navigation Start -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid"><!-- .container-fluid-start-->
+      <div class="row"><!-- Row for Navigation Start-->
+        <!-- Brand logo-->
+        <!-- xs-6 -->
+        <div class="navbar-header col-xs-6"><!-- Left nav bar start -->
+          <a class="navbar-brand" href="#">
+            <img src="images/logo/tnw-logo.svg" alt="" width="auto" height="100%">
+          </a>
+        </div><!-- Left nav bar collapse -->
 
-      <!-- Follow Login Search functions-->
-      <!-- xs-6 -->
-      <div class = "col-xs-6">
-        <div class="navbar-collapse">
-          <ul class="nav navbar-nav navbar-right"><!-- .navbar-right-start -->
-            <li class="dropdown  col-xs-6"><!-- Follow-Start -->
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                FOLLOW
-                <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li><!-- Follow-collapse -->
-            <li class="dropdown  col-xs-3"><!-- Login-Start -->
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <span class="glyphicon glyphicon-user"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-              </ul>
-            </li><!-- Login-collapse -->
-            <li class="dropdown col-xs-3"><!-- Search-Start -->
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <span class="glyphicon glyphicon-search"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Search</a></li>
-              </ul>
-            </li><!-- Search-collapse -->
-          </ul><!-- .navbar-right-collapse -->
-        </div><!-- .navbar-collapse-collapse --> 
-      </div><!-- .col-xs-6-collapse -->
-    </div> <!-- .row-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+        <!-- Follow Login Search functions-->
+        <!-- xs-6 -->
+        <div class = "col-xs-6"><!-- Right nav bar start -->
+          <div class="navbar-collapse"><!-- .navbar-collapse-start -->
+            <ul class="nav navbar-nav navbar-right"><!-- .navbar-right-start -->
+              <li class="dropdown  col-xs-8"><!-- Follow-Start -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  FOLLOW
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li><!-- Follow-collapse -->
+              <li class="dropdown  col-xs-2"><!-- Login-Start -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <span class="glyphicon glyphicon-user"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li><!-- Login-collapse -->
+              <li class="dropdown col-xs-2"><!-- Search-Start -->
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <span class="glyphicon glyphicon-search"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Search</a></li>
+                </ul>
+              </li><!-- Search-collapse -->
+            </ul><!-- .navbar-right-collapse -->
+          </div><!-- .navbar-collapse-collapse --> 
+        </div><!-- Right nav bar collapse -->
+      </div> <!-- .Row for Navigation collapse -->
+
+
+    </div><!-- .container-fluid-collpase -->
+  </nav><!-- Navigation-collapse -->
+
+  <!-- Content -->
+  <div class="container-fluid main-box-articles"><!-- Content Box for Articles -->
+    <div class="row"><!-- Content Row Start -->
+      <div class="col-xs-12 col-md-8"><!-- Main Box Start-->
+        <figure>
+          <img src="images/main/Square-Reader.jpg">
+          <figcaption>
+            By <a href="">JORY MACKAY</a>
+          </figcaption>
+        </figure>
+        <article>
+          <h1>Square officially launches its Register software platform worldwide</h1>
+          <p>Square has today announced that its point-of-sale(POS) software Square Register is now available globally, having previously been restricted to users in the US, Canada and Japan, Announced at The Financial... <a href="#">Keep reading</a></p>
+        </article>
+      </div><!-- Main Box Collapse -->
+      <div class="col-xs-12 col-md-4"><!-- Side Box Start-->
+        <div class="col-xs-12"><!-- SideContent Article 1 Start -->
+          <figure>
+            <img src="images/main/Well-Dressed.jpg">
+            <figcaption>
+              By <a href="">JORY MACKAY</a>
+            </figcaption>
+          </figure>
+          <article>
+            <h1>The weird science of first impressions</h1>
+          </article>
+        </div><!-- SideContent Article 1 Collapse -->
+        <div class="col-xs-12"><!-- SideContent Article 2 Start -->
+          <figure>
+            <img src="images/main/Adidas-Shoes.png">
+            <figcaption>
+                By <a href="">PAUL SAWERS</a>
+            </figcaption>
+          </figure>
+          <article>
+            <h1>Adidas now lets Americans print photos on their sneakers too</h1>
+          </article>
+        </div><!-- SideContent Article 2 Collapse-->
+      </div><!-- Side Box Collapse -->
+    </div><!-- Content Row Collapse -->
+  </div><!-- Content Box for Articles Collapse -->
+
+
 
 <!-- Side Bar -->
-<!--     <div class="container-fluid">
+<!-- <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
