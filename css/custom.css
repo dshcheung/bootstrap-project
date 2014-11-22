@@ -53,9 +53,6 @@ div.sidebar-box {
   width: 300px;
   height: 100%;
   position: fixed;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 div.sidebar-top-box {
@@ -74,9 +71,7 @@ button#channel-btn span.caret {
 }
 
 button#lastest-btn, button#popular-btn{
-  width: 49.3%;
-  display:inline-block;
-  box-sizing: border-box ;
+  width: 49%;
 }
 /*Content*/
 
