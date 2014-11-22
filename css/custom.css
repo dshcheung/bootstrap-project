@@ -57,6 +57,27 @@ div.sidebar-box {
   padding: 0;
   box-sizing: border-box;
 }
+
+div.sidebar-top-box {
+  padding: 20px 12px;
+}
+
+button#channel-btn {
+  text-align: left;
+  width: 100%;
+}
+
+button#channel-btn span.caret {
+  float:right;
+  position:relative;
+  top: 9px;
+}
+
+button#lastest-btn, button#popular-btn{
+  width: 49.3%;
+  display:inline-block;
+  box-sizing: border-box ;
+}
 /*Content*/
 
 div.content-box img {
