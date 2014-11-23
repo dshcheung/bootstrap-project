@@ -59,8 +59,8 @@ ul.navbar-follow-caret ul li a {
   padding:30px 0;
   margin: auto;
 }
-ul.navbar-follow-caret ul form input{
-  margin:0 0 0 5px;
+ul.navbar-follow-caret ul form input#email-address{
+  margin:0 0 10px 5px;
   width: calc(100% - 56px);
 }
 p#follow-caret-p {
@@ -69,7 +69,22 @@ p#follow-caret-p {
   margin-bottom: 0;
 }
 
-
+li.follow-caret-tick form input {
+  position:relative;
+  bottom: 16px ;
+  width: 12px;
+}
+ul li.follow-caret-tick form label {
+  width: calc(100% - 30px);
+}
+ul li.follow-caret-tick form label p {
+  color:white;
+  margin: 0 0 2px;
+  font-size: 11px;
+}
+input#s-follow-caret-tick {
+  bottom: 0;
+}
 
 /*Sidebar*/
 
