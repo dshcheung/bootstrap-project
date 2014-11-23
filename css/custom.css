@@ -17,28 +17,24 @@ nav.navbar {
   height: 52px;
   border-bottom: 2px solid #dddddd;
 }
-.active {
+li.active.nav-blog-link {
   border-bottom: 2px solid red;
 }
-li.active a{
+li.active.nav-blog-link a {
   color: red!important;
 }
-
 a#logo {
   margin-left: 0;
 }
 div.navbar-right {
   margin-right: 0px;
 }
-
 li#nav-like-btn a, li#nav-follow-btn a {
   padding: 8px 8px;
 }
 li#nav-rss-btn a {
   padding: 7px 8px 8px;
 }
-
-
 ul.navbar-nav li.nav-font a {
   font-weight: bold;
   font-size: 1.2em;
@@ -53,25 +49,57 @@ div.sidebar-box {
   width: 300px;
   height: 100%;
   position: fixed;
+  padding: 0;
+  border-right: 1px solid #dddddd;
 }
-
 div.sidebar-top-box {
   padding: 20px 12px;
+  border-bottom: 1px solid #dddddd;
 }
-
+div.sidebar-top-box ul li a {
+  padding: 0 0 10px;
+}
 button#channel-btn {
   text-align: left;
-  width: 100%;
 }
-
 button#channel-btn span.caret {
-  float:right;
-  position:relative;
+  float: right;
+  position: relative;
   top: 9px;
 }
-
-button#lastest-btn, button#popular-btn{
+button#lastest-btn, button#popular-btn {
   width: 49%;
+}
+
+div.sidebar-feed-box {
+  height: calc(100% - 224px);
+  overflow:scroll;
+}
+div.sidebar-feed-box ul li{
+  border-bottom: 1px solid #dddddd;
+  padding:0;
+}
+
+div.sidebar-feed-box ul li a {
+  padding:10px 10px;
+}
+
+div.sidebar-footer-box {
+  padding: 10px 10px;
+  position:fixed;
+  bottom:0;
+  border: 1px solid #dddddd;
+  width: 300px;
+}
+
+div.sidebar-footer-box a {
+  vertical-align: middle;
+  padding: 10px 5px;
+  color: red;
+}
+
+div.sidebar-footer-box a:first-child{
+  margin-left:10px;
 }
 /*Content*/
 
