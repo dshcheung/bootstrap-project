@@ -21,7 +21,8 @@ li.active.nav-blog-link a {
   color: red!important;
   border-bottom: 2px solid red;
 }
-li#nav-like-btn a, li#nav-follow-btn a {
+li#nav-like-btn a,
+li#nav-follow-btn a {
   padding: 8px 6px;
 }
 li#nav-rss-btn a {
@@ -35,57 +36,52 @@ ul.navbar-nav li.nav-font a {
   margin: auto 0;
   width
 }
-
-div.navbar-search-section, 
+div.navbar-search-section,
 div.navbar-login-section,
-div.navbar-follow-btn-section{
+div.navbar-follow-btn-section {
   border-left: 1px solid #dddddd;
 }
-
 @media screen and (max-width: 768px) {
   ul.navbar-follow-caret li a span.visible-xs {
-    display:inline-block!important;
+    display: inline-block!important;
   }
 }
-
-ul.navbar-follow-caret ul{
+ul.navbar-follow-caret ul {
   background-color: #405061;
-  width:320px;
+  width: 320px;
 }
 ul.navbar-follow-caret ul li a {
-  color:white;
+  color: white;
   height: 84px;
   text-align: center;
-  padding:30px 0;
+  padding: 30px 0;
   margin: auto;
 }
-ul.navbar-follow-caret ul form input#email-address{
-  margin:0 0 10px 5px;
+ul.navbar-follow-caret ul form input#email-address {
+  margin: 0 0 10px 5px;
   width: calc(100% - 56px);
 }
 p#follow-caret-p {
-  color:white;
+  color: white;
   text-align: center;
   margin-bottom: 0;
 }
-
 li.follow-caret-tick form input {
-  position:relative;
-  bottom: 16px ;
+  position: relative;
+  bottom: 16px;
   width: 12px;
 }
 ul li.follow-caret-tick form label {
   width: calc(100% - 30px);
 }
 ul li.follow-caret-tick form label p {
-  color:white;
+  color: white;
   margin: 0 0 2px;
   font-size: 11px;
 }
 input#s-follow-caret-tick {
   bottom: 0;
 }
-
 /*Sidebar*/
 
 div.sidebar-box {
@@ -110,39 +106,35 @@ button#channel-btn span.caret {
   position: relative;
   top: 9px;
 }
-button#lastest-btn, button#popular-btn {
+button#lastest-btn,
+button#popular-btn {
   width: 49%;
 }
-
 div.sidebar-feed-box {
   height: calc(100% - 224px);
-  overflow:scroll;
+  overflow: scroll;
 }
-div.sidebar-feed-box ul li{
+div.sidebar-feed-box ul li {
   border-bottom: 1px solid #dddddd;
-  padding:0;
+  padding: 0;
 }
-
 div.sidebar-feed-box ul li a {
-  padding:10px 10px;
+  padding: 10px 10px;
 }
-
 div.sidebar-footer-box {
   padding: 10px 10px;
-  position:fixed;
-  bottom:0;
+  position: fixed;
+  bottom: 0;
   border: 1px solid #dddddd;
   width: 300px;
 }
-
 div.sidebar-footer-box a {
   vertical-align: middle;
   padding: 10px 5px;
   color: red;
 }
-
-div.sidebar-footer-box a:first-child{
-  margin-left:10px;
+div.sidebar-footer-box a:first-child {
+  margin-left: 10px;
 }
 /*Content*/
 
@@ -169,7 +161,9 @@ div.content-box-wrapper {
     margin-left: 0;
   }
 }
-div.content-main-box, div.content-side-box, div.side-box-articles {
+div.content-main-box,
+div.content-side-box,
+div.side-box-articles {
   margin: 0;
   padding: 1%;
 }
