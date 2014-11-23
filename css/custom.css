@@ -38,7 +38,8 @@ ul.navbar-nav li.nav-font a {
 }
 div.navbar-search-section,
 div.navbar-login-section,
-div.navbar-follow-btn-section {
+div.navbar-follow-btn-section,
+div.navbar-about-section {
   border-left: 1px solid #dddddd;
 }
 @media screen and (max-width: 768px) {
@@ -71,6 +72,9 @@ li.follow-caret-tick form input {
   bottom: 16px;
   width: 12px;
 }
+input#s-follow-caret-tick {
+  bottom: 0;
+}
 ul li.follow-caret-tick form label {
   width: calc(100% - 30px);
 }
@@ -79,9 +83,7 @@ ul li.follow-caret-tick form label p {
   margin: 0 0 2px;
   font-size: 11px;
 }
-input#s-follow-caret-tick {
-  bottom: 0;
-}
+
 /*Sidebar*/
 
 div.sidebar-box {
